@@ -22,7 +22,7 @@
 <link rel="stylesheet" href="css/base.css?v=050fb767">
 <link rel="stylesheet" href="css/site.css?v=3a13e930">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Hotel", "name": "Sua Marca", "description": "Hotel de frente para o mar no bairro Aviação, em Praia Grande, com restaurante e pizzaria aberto ao público.", "url": "https://lugusofficial.github.io/hotel-frente-mar-praia-grande/", "telephone": "+0000000000", "email": "reservas@example.com", "address": {"@type": "PostalAddress", "streetAddress": "Avenida Exemplo, 1", "addressLocality": "Praia Grande", "addressRegion": "SP", "addressCountry": "BR"}, "amenityFeature": [{"@type": "LocationFeatureSpecification", "name": "Restaurante", "value": true}, {"@type": "LocationFeatureSpecification", "name": "Wifi grátis", "value": true}, {"@type": "LocationFeatureSpecification", "name": "Ar condicionado", "value": true}]}</script>
-<script type="module" src="js/tour.js?v=59a9ff1e"></script>
+<script type="module" src="js/tour.js?v=98011144"></script>
 <script src="js/main.js?v=dd145b68" defer></script>
 <script src="js/atendente.js?v=088902ae" defer></script>
 </head>
@@ -89,18 +89,16 @@
     <div class="container tour" data-tour>
       <div class="cabeca">
         <p class="kicker">Tour 360</p>
-        <h2 id="tour-titulo">Ande pelo quarto</h2>
-        <p class="lead">Clique no chão para caminhar e arraste para olhar em volta.</p>
+        <h2 id="tour-titulo">Olhe o quarto em 360°</h2>
+        <p class="lead">Arraste para olhar em volta.</p>
       </div>
-      <div class="tour__palco" data-tour-palco tabindex="0" aria-label="Tour 360 do quarto Suíte Frente Mar. Setas ou W A S D andam e giram.">
+      <div class="tour__palco" data-tour-palco tabindex="0" aria-label="Tour 360 do quarto Suíte Frente Mar. Arraste ou use as setas para girar.">
         <canvas aria-hidden="true"></canvas>
         <div class="tour__portas" data-tour-portas></div>
         <p class="tour__onde" data-tour-onde>Suíte Frente Mar</p>
         <div class="tour__controles">
-          <button type="button" data-tour-mov="frente:1" aria-label="Andar para frente"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 19V5M6 11l6-6 6 6"/></svg></button>
           <button type="button" data-tour-tela aria-label="Tela cheia"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
           <button type="button" data-tour-mov="giro:-1" aria-label="Girar para a esquerda"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 6l-6 6 6 6"/></svg></button>
-          <button type="button" data-tour-mov="frente:-1" aria-label="Andar para trás"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 5v14M6 13l6 6 6-6"/></svg></button>
           <button type="button" data-tour-mov="giro:1" aria-label="Girar para a direita"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M9 6l6 6-6 6"/></svg></button>
         </div>
         <div class="tour__veu" data-tour-veu aria-hidden="true"></div>
@@ -117,7 +115,7 @@
       <p class="tour__dica">Ambiente gerado por computação para este demonstrativo. No site final, o tour usa fotos 360 do quarto.</p>
     </div>
   </section>
-<script type="application/json" id="tour-dados">{"inicio": "frente-mar", "nos": {"frente-mar": {"nome": "Suíte Frente Mar", "olhar": 0.55, "andar": 1.2, "dica": "Clique no chão para andar.", "links": [], "img": "assets/tour/frente-mar.jpg", "dist": "assets/tour/frente-mar-d.png"}}}</script>
+<script type="application/json" id="tour-dados">{"inicio": "frente-mar", "nos": {"frente-mar": {"nome": "Suíte Frente Mar", "olhar": 0.55, "andar": 1.2, "dica": "Arraste para olhar em volta.", "links": [], "img": "assets/tour/frente-mar.jpg", "dist": "assets/tour/frente-mar-d.png"}}}</script>
 
   <section class="section">
     <div class="container">
