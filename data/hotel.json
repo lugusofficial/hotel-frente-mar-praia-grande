@@ -1,0 +1,220 @@
+{
+ "nome": "Sua Marca",
+ "cidade": "Praia Grande",
+ "tipos": {
+  "frente-mar": {
+   "nome": "Suíte Frente Mar",
+   "pagina": "suite-frente-mar.html",
+   "hosp": 2,
+   "mar": true
+  },
+  "superior": {
+   "nome": "Suíte Superior",
+   "pagina": "suite-superior.html",
+   "hosp": 2,
+   "mar": false
+  },
+  "triplo": {
+   "nome": "Chalé Triplo",
+   "pagina": "chale-triplo.html",
+   "hosp": 3,
+   "mar": false
+  },
+  "quadrupla": {
+   "nome": "Suíte Quádrupla",
+   "pagina": "suite-quadrupla.html",
+   "hosp": 4,
+   "mar": true
+  }
+ },
+ "andares": [
+  {
+   "numero": 1,
+   "quartos": [
+    {
+     "numero": 101,
+     "tipo": "frente-mar",
+     "posicaoNaFachada": 0,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 102,
+     "tipo": "frente-mar",
+     "posicaoNaFachada": 1,
+     "vista": "mar",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 103,
+     "tipo": "quadrupla",
+     "posicaoNaFachada": 2,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 104,
+     "tipo": "superior",
+     "posicaoNaFachada": 3,
+     "vista": "lateral",
+     "status": "disponivel"
+    },
+    {
+     "numero": 105,
+     "tipo": "superior",
+     "posicaoNaFachada": 4,
+     "vista": "lateral",
+     "status": "disponivel"
+    },
+    {
+     "numero": 106,
+     "tipo": "triplo",
+     "posicaoNaFachada": 5,
+     "vista": "lateral",
+     "status": "indisponivel"
+    }
+   ]
+  },
+  {
+   "numero": 2,
+   "quartos": [
+    {
+     "numero": 201,
+     "tipo": "frente-mar",
+     "posicaoNaFachada": 0,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 202,
+     "tipo": "frente-mar",
+     "posicaoNaFachada": 1,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 203,
+     "tipo": "quadrupla",
+     "posicaoNaFachada": 2,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 204,
+     "tipo": "superior",
+     "posicaoNaFachada": 3,
+     "vista": "lateral",
+     "status": "disponivel"
+    },
+    {
+     "numero": 205,
+     "tipo": "superior",
+     "posicaoNaFachada": 4,
+     "vista": "lateral",
+     "status": "disponivel"
+    },
+    {
+     "numero": 206,
+     "tipo": "triplo",
+     "posicaoNaFachada": 5,
+     "vista": "lateral",
+     "status": "disponivel"
+    }
+   ]
+  },
+  {
+   "numero": 3,
+   "quartos": [
+    {
+     "numero": 301,
+     "tipo": "frente-mar",
+     "posicaoNaFachada": 0,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 302,
+     "tipo": "frente-mar",
+     "posicaoNaFachada": 1,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 303,
+     "tipo": "quadrupla",
+     "posicaoNaFachada": 2,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 304,
+     "tipo": "superior",
+     "posicaoNaFachada": 3,
+     "vista": "lateral",
+     "status": "disponivel"
+    },
+    {
+     "numero": 305,
+     "tipo": "superior",
+     "posicaoNaFachada": 4,
+     "vista": "lateral",
+     "status": "disponivel"
+    },
+    {
+     "numero": 306,
+     "tipo": "triplo",
+     "posicaoNaFachada": 5,
+     "vista": "lateral",
+     "status": "disponivel"
+    }
+   ]
+  },
+  {
+   "numero": 4,
+   "quartos": [
+    {
+     "numero": 401,
+     "tipo": "frente-mar",
+     "posicaoNaFachada": 0,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 402,
+     "tipo": "frente-mar",
+     "posicaoNaFachada": 1,
+     "vista": "mar",
+     "status": "indisponivel"
+    },
+    {
+     "numero": 403,
+     "tipo": "quadrupla",
+     "posicaoNaFachada": 2,
+     "vista": "mar",
+     "status": "disponivel"
+    },
+    {
+     "numero": 404,
+     "tipo": "superior",
+     "posicaoNaFachada": 3,
+     "vista": "lateral",
+     "status": "disponivel"
+    },
+    {
+     "numero": 405,
+     "tipo": "superior",
+     "posicaoNaFachada": 4,
+     "vista": "lateral",
+     "status": "disponivel"
+    },
+    {
+     "numero": 406,
+     "tipo": "triplo",
+     "posicaoNaFachada": 5,
+     "vista": "lateral",
+     "status": "disponivel"
+    }
+   ]
+  }
+ ]
+}
